@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+  @font-face
+  {
+    font-family: Sansation;
+    src: url('../fonts/Sansation_Regular.ttf');
+  }
+
+  #p1
+  {
+    font-family: Sansation;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 40px; 
+  color: #fff;
+  text-align: left;
+  line-height: 50px;
+
+  }
+  #p2
+  {
+    font-family: Sansation;
+    font-size: 24px; 
+    text-align: left;
+    line-height: 45px;
+
+
+  }
+  /* cardimagegroup */
+  #tituloa
+  {
+    font-family: Sansation;
+  font-size: 20px; 
+  font-weight: bold;
+  color: #2DBFF9;
+  }
+ 
+  #titulob
+    {
+  font-family: Sansation;
+  font-size: 20px; 
+  font-weight: bold;
+  color: #302CD1;
+  }
+  #tituloc
+    {
+  font-family: Sansation;
+  font-size: 14px; 
+  font-weight: bold;
+  columns: #000000;;
+  }
+
+  #parrafo
+  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; 
+  color: #000000;
+  }
+
+/* cardsdeck */
+#tituloe
+    {
+  font-family: Sansation;
+  font-size: 28px; 
+  font-weight: bold;
+  line-height: 22px;
+  color: #302CD1;
+  }
+  #tituloe2
+  {
+font-family: Sansation;
+font-size: 28px; 
+font-weight: bold;
+line-height: 22px;
+color: #000000;
+}
+
+
+#titulod
+    {
+  font-family: Sansation;
+  font-size: 14px; 
+  font-weight: bold;
+  color: #2DBFF9;;
+  }
+  #parrafob
+  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px; 
+  color: #000000;
+  }
+
+
+/*restaurantes*/
+#titulog
+  {
+    font-family: Sansation;
+  font-size: 30px; 
+  color: #FFF;
+  }
+#tituloh
+  {
+    font-family: Sansation;
+  font-size: 30px; 
+  color: #2DBFF9;
+  }
+#restaurantes
+ {
+     max-width:1400px;
+     background-image:url('../img/home_fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 95%;
+ 
+    color: #fff;
+    min-height: 120px;
+  }
+
+
+
+/* punto components */
+#tituloi
+{
+    font-family: Sansation;
+    font-size: 30px; 
+    color: #FFF;
+}
+#tituloj
+{
+    font-family: Sansation;
+    font-size: 30px; 
+    color: greenyellow;
+}
+
+#titulok
+    {
+  font-family: Sansation;
+  font-size: 14px; 
+  font-weight: bold;
+  color: #fff;
+  }
+#tuinfo{
+  max-width:1400px;
+  background-image:url('../img/punto/fondo_2.png');
+  background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+    color: #fff;
+}
+#packcompleto{
+  max-width:1400px;
+  background-image:url('../img/precios/fondo_punto_de_venta.png');
+  background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+    color: #fff;
+
+}
+#parrafoc
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px; 
+color: #fff;
+}
+#parrafod
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px; 
+color: #302CD1;
+}
+
+  /* footer */
+  #titulof
+  {
+  font-family: Sansation;
+  font-size: 10px; 
+  font-weight: bold;
+  color: #302CD1;
+  }
+  #linkf
+  {
+  font-family: Sansation;
+  font-size: 12px; 
+  color: #000000;
+  }
+
+
+  #nav{
+   font-family: Sansation;
+   font-size: 14px; 
+   margin-top: 2.5%;
+   margin-left: 2.5%;
+
+  }
+  
+  #logo{
+    width:150px;
+    
+  }
+  #cardhead{
+    background: #fff;
+  }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  
+}
+
+ 
+  #header {
+    display: flex;
+  flex: auto;
+  flex-direction: column;
+  /* fix firefox can't set height smaller than content on flex item */
+  min-height: 0;
+     
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+
+    /* background-size: cover; */
+    color: #fff;
+        text-align: center;
+  }
+  #body
+  {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    /* fix firefox can't set height smaller than content on flex item */
+    min-height: 0;
+       
+    text-align: center;
+  }
+  #footer
+  {
+    text-align: center;
+  }
+
+  #card
+  {
+    border-radius: 20px 20px 20px 20px;
+
+  }
+  .tab
+  {
+    color:rgba(240, 230, 230, 0.6);
+
+  }
+  .tabclick
+  {
+    color:#fff;
+    border-bottom: 2px solid white;
+  
+  }
+  .tab:hover {
+    color:#fff;
+    border-bottom: 2px solid white;
+  }
+
+  .button {
+    background-color: blue; /* Green */
+    font-family: Sansation;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+
+  }
+
+  #buttonwha
+  {  
+    color: #302CD1 ;
+
+  }
+
+  #buttonwha:hover
+  {        background-color: #302CD1;
+
+
+    color: white; 
+ 
+    border: 1px solid #302CD1;
+
+  }
+
+  .button1 {
+    background: rgba(0, 0, 0, 0);
+    color: white; 
+    border: 1px solid white;
+
+  }
+  
+  .button1:hover {
+  
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .button2 {
+    background-color: #302CD1; 
+    color: #fff; 
+    border: 1px solid #302CD1;
+
+  }
+  
+  .button2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+
+  @media (max-width: 576px) 
+  {
+  #img
+  {
+    display: none ;
+  }  
+
+  }
+
+
+  #components-layout-demo-basic {
+    text-align: center;
+    
+  }
+
+  #components-layout-demo-basic .ant-layout-footer {
+    color: #fff;
+  }
+  #components-layout-demo-basic .ant-layout-footer {
+    line-height: 1.5;
+  }
+  #components-layout-demo-basic .ant-layout-sider {
+    color: #fff;
+    line-height: 120px;
+  }
+  
+  #components-layout-demo-basic > .ant-layout {
+    margin-bottom: 48px;
+  }
+  #components-layout-demo-basic > .ant-layout:last-child {
+    margin: 0;
+  }
+
