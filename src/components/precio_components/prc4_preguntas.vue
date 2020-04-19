@@ -1,8 +1,8 @@
 <template>
-     <div class="container"  id="cardsdeck" style="max-width:800px;">
+     <div class="container text-center"  style="max-width:800px;">
 <p  id="tituloe">Preguntas frecuentes</p>
 <p  id="tituloc">SOBRE REQUERIMIENTOS PAGOS Y ENTREGA</p>
-
+<br>
 
    <h5  class="card-title text-left" id="tituloa">Lo que debes saber al adquirir ANOVA</h5>
   <div role="tablist" class="mb-5">
@@ -13,7 +13,7 @@
       <b-collapse id="accordion-1"  accordion="my-accordion" role="tabpanel">
         <b-card-body>
           <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-          <b-card-text>{{ text }}</b-card-text>
+          <b-card-text></b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -24,7 +24,7 @@
       </b-card-header>
       <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text>{{ text }}</b-card-text>
+          <b-card-text></b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -35,7 +35,7 @@
       </b-card-header>
       <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
         <b-card-body>
-          <b-card-text>{{ text }}</b-card-text>
+          <b-card-text></b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -45,6 +45,7 @@
 
 <script>
   export default {
-   name: 'prc3_preguntas'
+   name: 'prc4_preguntas',
+  
   }
 </script>

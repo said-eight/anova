@@ -1,35 +1,28 @@
 <template>
- <div class="container" id="cardsbutton" style="justify-content:center;max-width:1200px">
+ <div class="container" style="justify-content:center;max-width:1400px">
   
-  <p  id="tituloe">AGILIZA LOS PROCESOS</p>
-  <p  id="tituloe">DE TU AREA</p>
-
-<div class="card mb-3 mx-auto bg-transparent border-0 " style="max-width: 1200px;">
-  <div class="row no-gutters">
-   
-    <div class="col-md-5 ">
-      <div class="card-body mt-3">
-        <ul class="list-group list-group-flush text-right">
-         
-    <li class="list-group-item border-0">
-      
-      <h5  class="card-title " id="tituloa">EQUIPO DE PUNTO DE VENTA</h5>
-            <h5  class="card-title" id="titulob">COMPLETA AL MEJOR COSTO </h5>
-
-      </li>
-    <li class="list-group-item border-0"> 
-      <h5  class="card-title" id="tituloc">UNICAMENTE CONECTALO</h5>
-            <h5  class="card-title" id="tituloc">Y DISFRUTA LOS BENEFICIOS</h5>
-
-      <p class="card-text" id="parrafo">Nosotros configuramos todo el equipo de punto de venta(Computadoras, impresoras, tablets y otros dispositivos) y te lo entregamos listo para usar</p>
-
-    </li>
-        </ul>
+  <p  id="tituloe">AGILIZA LOS PROCESOS<br>
+DE TUS ÁREAS </p>
+ 
+<br>
+<br>
+<div class="card mb-5 mx-auto bg-transparent border-0 ">
+  <div class="row ">
+    <div class="col-md-5  " >
+      <div class="card-body  text-right">
+      <h5  class="card-title"  id="tituloa">AGILIZA </h5>
+            <h5  class="card-title" id="titulob">TU SERVICIO</h5>
+      <h5  class="card-title" id="tituloc">MAPA DE MESAS</h5>
+      <p class="card-text" id="parrafo">
+       Toda la información de tus mesas en una sola pantalla,
+optimizada para hacer todas las operaciones más rápidas, 
+desde dividir una mesa hasta pagar una cuenta.
+        </p>
 
       </div>
     </div>
-     <div class="col-md-6 ">
-      <img src="img/punto/pantalla_5.png"  alt="..." >
+     <div class="col-md-6">
+      <img src="img/punto/pv_mapademesas.png" width="765px"  >
     </div>
   </div>
 </div>
@@ -37,30 +30,26 @@
 <br>
 <br>
 
-<div class="card mb-3 mx-auto bg-transparent border-0 " >
-  <div class="row no-gutters">
-    <div class="col-md-6 ">
-      <img src="img/punto/pantalla_6.png"  alt="..." >
+<div class="card mb-5 mx-auto bg-transparent border-0 ">
+  <div class="row ">
+    <div class="col-md- ">
+      <img src="img/punto/pv_cortedecaja.png"  width="765px" >
     </div>
-    <div class="col-md-5">
-      <div class="card-body mt-3 text-left">
-        <ul class="list-group list-group-flush">
-         
-    <li class="list-group-item border-0">
-      
-      <h5  class="card-title" id="tituloa">SOFTWARE INTELIGENTE</h5>
-      <h5  class="card-title " id="titulob">EL CEREBRO DE TU RESTAURANTE</h5>
-      </li>
-    <li class="list-group-item border-0"> 
-      <h5  class="card-title " id="tituloc">PODRAS OPERAR Y ADMINISTRAR</h5>
-            <h5  class="card-title " id="tituloc">TODO TU NEGOCIO DESDE UN SOLO LUGAR </h5>
-      <p class="card-text " id="parrafo">Aumenta tus utilidades controlando todas las áreas, realiza las actividades diarias más rapido y automatiza todas las operaciones de tu negocio desde un solo lugar.</p>
+    <div class="col-md-5  " >
+      <div class="card-body text-left">
+      <h5  class="card-title  "  id="tituloa">PERSONALIZA</h5>
+            <h5  class="card-title" id="titulob">TUS COMANDAS</h5>
+      <h5  class="card-title" id="tituloc">COMANDERO RAPIDO</h5>
+      <p class="card-text" id="parrafo">
+     Selecciona los platillos y bebidas que piden tus 
+comensales para que se impriman inmediatamente 
+en la barra y la cocina.
+Agrupa tus productos por familias y categorías.
 
-    </li>
-        </ul>
-
+      </p>
       </div>
     </div>
+     
   </div>
 </div>
 
@@ -70,6 +59,11 @@
 </template>
 <script>
 export default {
-    name:'punto_agiliza'
+    name:'pc3_agiliza'
 }
 </script>
+<style scoped>
+ #tituloa{
+   margin-top: 30%;
+ }
+</style>

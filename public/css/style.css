@@ -6,225 +6,14 @@
     src: url('../fonts/Sansation_Regular.ttf');
   }
 
-  #p1
-  {
-    font-family: Sansation;
-  /* font-family: 'Montserrat', sans-serif; */
-  font-size: 40px; 
-  color: #fff;
-  text-align: left;
-  line-height: 50px;
 
-  }
-  #p2
-  {
-    font-family: Sansation;
-    font-size: 24px; 
-    text-align: left;
-    line-height: 45px;
-
-
-  }
-  /* cardimagegroup */
-  #tituloa
-  {
-    font-family: Sansation;
-  font-size: 20px; 
-  font-weight: bold;
-  color: #2DBFF9;
-  }
- 
-  #titulob
-    {
-  font-family: Sansation;
-  font-size: 20px; 
-  font-weight: bold;
-  color: #302CD1;
-  }
-  #tituloc
-    {
-  font-family: Sansation;
-  font-size: 14px; 
-  font-weight: bold;
-  columns: #000000;;
-  }
-
-  #parrafo
-  {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px; 
-  color: #000000;
-  }
-
-/* cardsdeck */
-#tituloe
-    {
-  font-family: Sansation;
-  font-size: 28px; 
-  font-weight: bold;
-  line-height: 22px;
-  color: #302CD1;
-  }
-  #tituloe2
-  {
-font-family: Sansation;
-font-size: 28px; 
-font-weight: bold;
-line-height: 22px;
-color: #000000;
-}
-
-
-#titulod
-    {
-  font-family: Sansation;
-  font-size: 14px; 
-  font-weight: bold;
-  color: #2DBFF9;;
-  }
-  #parrafob
-  {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px; 
-  color: #000000;
-  }
-
-
-/*restaurantes*/
-#titulog
-  {
-    font-family: Sansation;
-  font-size: 30px; 
-  color: #FFF;
-  }
-#tituloh
-  {
-    font-family: Sansation;
-  font-size: 30px; 
-  color: #2DBFF9;
-  }
-#restaurantes
- {
-     max-width:1400px;
-     background-image:url('../img/home_fondo.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    background-size: 100% 95%;
- 
-    color: #fff;
-    min-height: 120px;
-  }
-
-
-
-/* punto components */
-#tituloi
-{
-    font-family: Sansation;
-    font-size: 30px; 
-    color: #FFF;
-}
-#tituloj
-{
-    font-family: Sansation;
-    font-size: 30px; 
-    color: greenyellow;
-}
-
-#titulok
-    {
-  font-family: Sansation;
-  font-size: 14px; 
-  font-weight: bold;
-  color: #fff;
-  }
-#tuinfo{
-  max-width:1400px;
-  background-image:url('../img/punto/fondo_2.png');
-  background-repeat: no-repeat;
-    height: auto;
-    background-size: 100% 100%;
-    color: #fff;
-}
-#packcompleto{
-  max-width:1400px;
-  background-image:url('../img/precios/fondo_punto_de_venta.png');
-  background-repeat: no-repeat;
-    height: auto;
-    background-size: 100% 100%;
-    color: #fff;
-
-}
-#parrafoc
-{
-font-family: 'Montserrat', sans-serif;
-font-size: 14px; 
-color: #fff;
-}
-#parrafod
-{
-font-family: 'Montserrat', sans-serif;
-font-size: 14px; 
-color: #302CD1;
-}
-
-  /* footer */
-  #titulof
-  {
-  font-family: Sansation;
-  font-size: 10px; 
-  font-weight: bold;
-  color: #302CD1;
-  }
-  #linkf
-  {
-  font-family: Sansation;
-  font-size: 12px; 
-  color: #000000;
-  }
-
-
-  #nav{
-   font-family: Sansation;
-   font-size: 14px; 
-   margin-top: 2.5%;
-   margin-left: 2.5%;
-
-  }
-  
-  #logo{
-    width:150px;
-    
-  }
-  #cardhead{
-    background: #fff;
-  }
-html,
+  html,
 body {
   width: 100%;
   height: 100%;
   
 }
-
- 
-  #header {
-    display: flex;
-  flex: auto;
-  flex-direction: column;
-  /* fix firefox can't set height smaller than content on flex item */
-  min-height: 0;
-     
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    background-size: 100% 100%;
-
-    /* background-size: cover; */
-    color: #fff;
-        text-align: center;
-  }
-  #body
+#body
   {
     display: flex;
     flex: auto;
@@ -234,16 +23,257 @@ body {
        
     text-align: center;
   }
+
+ 
+  #header {
+   
+
+  height: 766px;
+  max-width: 2000px;
+  background-size: 100% 100%;
+    background-position: center;
+  color:#fff;
+  }
+  #nav
+  {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: Sansation;
+    font-size: 14px; 
+  }
+
   #footer
   {
     text-align: center;
   }
 
+  #homerestaurantes
+ {
+     background-image:url('../img/home_fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+ 
+    color: #fff;
+    min-height: 120px;
+  }
+#tuinfo{
+  max-width:1920px;
+  background-image:url('../img/punto/pv_fondonubes.png');
+  background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+    color: #fff;
+}
+#packcompleto{
+  max-width:1920px;
+  background-image:url('../img/precios/fondo_punto_de_venta.png');
+  background-repeat: no-repeat;
+    height: auto;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+  #titulohome
+  {
+    font-family: Sansation;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: min(9.3vw,40px); 
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  line-height: 50px;
+  margin-top: 20%;
+
+  }
+  #subtitulohome
+  {
+    font-family: Sansation;
+    font-size: 24px; 
+    text-align: left;
+    line-height: 45px;
+
+
+  }
+
+  #tituloa
+  {
+    font-family: Sansation;
+  font-size: 29px; 
+  font-weight: bold;
+  color: #2DBFF9;
+  }
+ 
+  #titulob
+    {
+  font-family: Sansation;
+  font-size: 29px; 
+  font-weight: bold;
+  color: #302CD1;
+  }
+  
+  #tituloa2
+  {
+    font-family: Sansation;
+  font-size: 40px; 
+  font-weight: bold;
+  color: #2DBFF9;
+  }
+ 
+  #titulob2
+    {
+  font-family: Sansation;
+  font-size: 40px; 
+  font-weight: bold;
+  color: #302CD1;
+  }
+  
+  #tituloc
+    {
+  font-family: Sansation;
+  font-size: 18px; 
+  font-weight: bold;
+  columns: #000000;;
+  }
+
+ 
+
+
+#titulod
+    {
+  font-family: Sansation;
+  font-size: 22px; 
+  font-weight: bold;
+  color: #2DBFF9;;
+  }
+  
+#tituloe
+{
+font-family: Sansation;
+font-size: 40px; 
+font-weight: bold;
+line-height: 40px;
+color: #302CD1;
+text-align: center;
+}
+#tituloe2
+{
+font-family: Sansation;
+font-size: 28px; 
+font-weight: bold;
+line-height: 22px;
+color: #000000;
+}
+#titulof
+{
+font-family: Sansation;
+font-size: 10px; 
+font-weight: bold;
+color: #302CD1;
+}
+  
+#titulog
+{
+  font-family: Sansation;
+font-size: 40px; 
+font-weight: 600;
+color: #FFF;
+
+}
+#tituloh
+{
+  font-family: Sansation;
+font-size: 40px; 
+color: #2DBFF9;
+font-weight: bold;
+
+}
+
+
+
+#tituloi
+{
+  font-family: Sansation;
+  font-size: 40px; 
+  color: #FFF;
+}
+#tituloj
+{
+  font-family: Sansation;
+  font-size: 40px; 
+  color: greenyellow;
+}
+
+#titulok
+  {
+font-family: Sansation;
+font-size: 18px; 
+font-weight: bold;
+color: #fff;
+}
+#titulol
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; 
+  font-weight: bolder;
+  color: #5e6bef;
+}
+  #parrafo
+  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; 
+  color: #000000;
+  }
+  #parrafob
+  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px; 
+  color: #000000;
+  }
+
+
+
+}
+#parrafoc
+{
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+font-size: 20px; 
+color: #fff;
+}
+#parrafod
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px; 
+color: #302CD1;
+}
+
+ 
+  #linkf
+  {
+  font-family: Sansation;
+  font-size: 12px; 
+  color: #000000;
+  }
+
+
+  
+  
+  #logo{
+    width:150px;
+    
+  }
+  
+
   #card
   {
     border-radius: 20px 20px 20px 20px;
+    border-left: 1px  #000000 solid;
 
-  }
+  } 
+  
   .tab
   {
     color:rgba(240, 230, 230, 0.6);
@@ -260,20 +290,20 @@ body {
     border-bottom: 2px solid white;
   }
 
-  .button {
-    background-color: blue; /* Green */
-    font-family: Sansation;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 25px;
+  
+  .button
+  {
+    width: 252px;
+    height: 60px;
+    font-family: sansation;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    border-radius: 30px;
 
+  }
   }
 
   #buttonwha
@@ -317,36 +347,61 @@ body {
 
   }
 
+  hr
+  {
+    border: 4px solid;
+  }
+  .espacio
+  {
+    background-color:white;
+
+    width: 100px;
+    height: 85px;
+  }
+
+  .simovil
+  {
+    display: none;
+  }
   @media (max-width: 576px) 
   {
-  #img
+    #header {
+   
+
+      height: auto;
+      max-width: 2000px;
+      background-size: 100% 100%;
+        background-position: fixed;
+      color:#fff;
+      }
+    #nav
+    {
+      display: inline;
+    }
+  .nomovil
   {
     display: none ;
-  }  
-
-  }
-
-
-  #components-layout-demo-basic {
+  } 
+  .simovil
+  {
+    display: inline ;
+  }   
+  #titulohome
+  {
     text-align: center;
-    
   }
-
-  #components-layout-demo-basic .ant-layout-footer {
-    color: #fff;
+  #tituloa
+  {
+    text-align: center;
   }
-  #components-layout-demo-basic .ant-layout-footer {
-    line-height: 1.5;
+  #titulob
+  {
+    text-align: center;
   }
-  #components-layout-demo-basic .ant-layout-sider {
-    color: #fff;
-    line-height: 120px;
+  #tituloc
+  {
+    text-align: center;
   }
   
-  #components-layout-demo-basic > .ant-layout {
-    margin-bottom: 48px;
-  }
-  #components-layout-demo-basic > .ant-layout:last-child {
-    margin: 0;
   }
 

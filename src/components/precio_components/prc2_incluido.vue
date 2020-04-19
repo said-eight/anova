@@ -1,12 +1,12 @@
 <template>
-    <div class="container"  id="cardsdeck" style="max-width:600px;">
+    <div class="container text-center"  id="cardsdeck" style="max-width:1000px;">
   <p class="ml-1" id="tituloe">Incluido en ambos planes</p>
   <br>
 
 <div class="row mb-5">
   <div class="col-sm-6">
     <div class="card border-0">
-      <img src="img/precios/icono1.png" class=" mx-auto" alt="..." style="width:120px;" >
+      <img src="img/precios/icono1.png" class=" mx-auto" alt="..." >
       <div class="card-body mx-auto">
         <h5 class="card-title" id="titulod">DECISIONES INTELIGENTES</h5>
         <p class="card-text" id="parrafob">Detecta oportunidades con la ayuda de nuestro sistema experto y aumenta tus utilidades</p>

@@ -1,24 +1,29 @@
 <template>
   <div class="home">
-<hc1></hc1>
-<br>
-<hc2></hc2>
-<br>
+                   <h5 class="espacio"></h5>
 
-<hc3></hc3>
-<br>
+<hc1_visualiza/>
+               <h5 class="espacio"></h5>
+<hc2_restaurantes/>
+               <h5 class="espacio"></h5>
 
-<hc4></hc4>
-<br>
+<hc3_porque/>
+               <h5 class="espacio"></h5>
 
-<hc5></hc5>
-<br>
 
-<hc6></hc6>
-<br>
+<hc4_software/>
+               <h5 class="espacio"></h5>
 
-<hc7></hc7>
 
+<hc5_soporte/>
+               <h5 class="espacio"></h5>
+
+<hc6_preguntas/>
+               <h5 class="espacio"></h5>
+
+<hc7_procesos/>
+
+               <h5 class="espacio"></h5>
 
 
   </div>
@@ -27,25 +32,25 @@
 <script>
 
 
-import hc1 from '@/components/home_components/hc1.vue'
-import hc2 from '@/components/home_components/hc2.vue'
-import hc3 from '@/components/home_components/hc3.vue'
-import hc4 from '@/components/home_components/hc4.vue'
-import hc5 from '@/components/home_components/hc5.vue'
-import hc6 from '@/components/home_components/hc6.vue'
-import hc7 from '@/components/home_components/hc7.vue'
+import hc1_visualiza from '@/components/home_components/hc1_visualiza.vue'
+import hc2_restaurantes from '@/components/home_components/hc2_restaurantes.vue'
+import hc3_porque from '@/components/home_components/hc3_porque.vue'
+import hc4_software from '@/components/home_components/hc4_software.vue'
+import hc5_soporte from '@/components/home_components/hc5_soporte.vue'
+import hc6_preguntas from '@/components/home_components/hc6_preguntas.vue'
+import hc7_procesos from '@/components/home_components/hc7_procesos.vue'
 
 
 export default {
   name: 'Home',
   components: {
-    hc1,
-    hc2,
-    hc3,
-    hc4, 
-    hc5,
-    hc6,
-    hc7
+    hc1_visualiza,
+    hc2_restaurantes,
+    hc3_porque,
+    hc4_software, 
+    hc5_soporte,
+    hc6_preguntas,
+    hc7_procesos
   }
 }
 

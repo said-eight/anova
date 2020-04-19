@@ -1,40 +1,23 @@
 <template>
-  <div class="container" style="max-width:1200px"> 
-  <b-navbar bg-transparent toggleable="xl" type="dark" id="nav">
-    <b-navbar-brand href="Home"  @click="modificarid(0)"><img src="img/logoo blanco.png"  id="logo"></b-navbar-brand>
-
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-    <b-collapse  id="nav-collapse" is-nav>
-      <b-navbar-nav  >
-   <b-tabs>
-     <b-nav-item @click="modificarid(0)" :to="{name: 'empresarial'}"  >
-      <b-tab title="ANOVA PUNTO DE VENTA" active>
-                <b-nav-item><a-icon size="large" type="export" id="icon" /> Acceder a ANOVA</b-nav-item>
-
-      </b-tab>
-        </b-nav-item>
-       <b-nav-item @click="modificarid(0)" :to="{name: 'Puntodeventa'}"  >
-      <b-tab title="ANOVA PUNTO DE VENTA" active>
-                <b-nav-item><a-icon size="large" type="export" id="icon" /> Acceder a ANOVA</b-nav-item>
-
-      </b-tab>
-        </b-nav-item>
-   </b-tabs>
-
-      </b-navbar-nav>
-
-      
-    </b-collapse>
-  </b-navbar>
-
-           </div> 
+ <div>
+<br>
+<ec1_comofunciona/>
+   <h5 class="espacio"></h5>
+   <ec2_ventas/>
+ </div>
  
 </template>
 
 <script>
+import ec1_comofunciona from '@/components/empresarial_components/ec1_comofunciona.vue'
+import ec2_ventas from '@/components/empresarial_components/ec2_ventas.vue'
+
   export default {
       name : 'empresarial',
-  
+     components:
+     {
+       ec1_comofunciona,
+       ec2_ventas
+     }
   }
 </script>

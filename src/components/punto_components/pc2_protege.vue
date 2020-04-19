@@ -1,35 +1,28 @@
 <template>
- <div class="container" id="cardsbutton" style="justify-content:center;max-width:1200px">
+ <div class="container" style="justify-content:center;max-width:1400px">
   
-  <p  id="tituloe">PROTEGE LA SEGURIDAD</p>
-  <p  id="tituloe">DE TU RESTAURANTE</p>
-
-<div class="card mb-3 mx-auto bg-transparent border-0 " style="max-width: 1200px;">
-  <div class="row no-gutters">
-   
-    <div class="col-md-5 ">
-      <div class="card-body mt-3">
-        <ul class="list-group list-group-flush text-right ">
-         
-    <li class="list-group-item border-0">
-      
-      <h5  class="card-title  " id="tituloa">EQUIPO DE PUNTO DE VENTA</h5>
-            <h5  class="card-title" id="titulob">COMPLETA AL MEJOR COSTO </h5>
-
-      </li>
-    <li class="list-group-item border-0"> 
-      <h5  class="card-title" id="tituloc">UNICAMENTE CONECTALO</h5>
-            <h5  class="card-title" id="tituloc">Y DISFRUTA LOS BENEFICIOS</h5>
-
-      <p class="card-text" id="parrafo">Nosotros configuramos todo el equipo de punto de venta(Computadoras, impresoras, tablets y otros dispositivos) y te lo entregamos listo para usar</p>
-
-    </li>
-        </ul>
+  <p  id="tituloe">PROTEGE LA SEGURIDAD<br>
+DE TU RESTAURANTE </p>
+ 
+<br>
+<br>
+<div class="card mb-5 mx-auto bg-transparent border-0 ">
+  <div class="row ">
+    <div class="col-md-5  " >
+      <div class="card-body  text-right">
+      <h5  class="card-title"  id="tituloa">SEGURIDAD </h5>
+            <h5  class="card-title" id="titulob">EN TU NEGOCIO</h5>
+      <h5  class="card-title" id="tituloc">PERFILES DE USUARIOS</h5>
+      <p class="card-text" id="parrafo">
+        Asigna permisos y restricciones a las personas 
+que utilizaran el sistema, puedes crear perfiles como
+gerente, capitán de meseros, mesero y personalizarlos.
+        </p>
 
       </div>
     </div>
-     <div class="col-md-6 ">
-      <img src="img/punto/pantalla_3.png"  alt="..." >
+     <div class="col-md-6">
+      <img src="img/punto/pv_perfilesdeusuarios.png" width="765px"  >
     </div>
   </div>
 </div>
@@ -37,30 +30,23 @@
 <br>
 <br>
 
-<div class="card mb-3 mx-auto bg-transparent border-0 " >
-  <div class="row no-gutters">
-    <div class="col-md-6 ">
-      <img src="img/punto/pantalla_4.png"  alt="..." >
+<div class="card mb-5 mx-auto bg-transparent border-0 ">
+  <div class="row ">
+    <div class="col-md- ">
+      <img src="img/punto/pv_cortedecaja.png"  width="765px" >
     </div>
-    <div class="col-md-5">
-      <div class="card-body mt-3 text-left">
-        <ul class="list-group list-group-flush">
-         
-    <li class="list-group-item border-0">
-      
-      <h5  class="card-title" id="tituloa">SOFTWARE INTELIGENTE</h5>
-      <h5  class="card-title " id="titulob">EL CEREBRO DE TU RESTAURANTE</h5>
-      </li>
-    <li class="list-group-item border-0"> 
-      <h5  class="card-title " id="tituloc">PODRAS OPERAR Y ADMINISTRAR</h5>
-            <h5  class="card-title " id="tituloc">TODO TU NEGOCIO DESDE UN SOLO LUGAR </h5>
-      <p class="card-text " id="parrafo">Aumenta tus utilidades controlando todas las áreas, realiza las actividades diarias más rapido y automatiza todas las operaciones de tu negocio desde un solo lugar.</p>
-
-    </li>
-        </ul>
-
+    <div class="col-md-5  " >
+      <div class="card-body text-left">
+      <h5  class="card-title  "  id="tituloa">QUE NUNCA</h5>
+            <h5  class="card-title" id="titulob">TE FALTE DINERO</h5>
+      <h5  class="card-title" id="tituloc">CORTE DE CAJA</h5>
+      <p class="card-text" id="parrafo">
+       Al final del día registra el dinero que tienes en 
+la caja y ANOVA te dirá si te sobra o falta efectivo.
+      </p>
       </div>
     </div>
+     
   </div>
 </div>
 
@@ -70,6 +56,11 @@
 </template>
 <script>
 export default {
-    name:'punto_protege'
+    name:'pc2_protege'
 }
 </script>
+<style scoped>
+ #tituloa{
+   margin-top: 30%;
+ }
+</style>

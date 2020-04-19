@@ -1,7 +1,7 @@
 <template>
 <div>
+
       <div class="container mt-4" style="justify-content:center;max-width:400px">
-       
  
        <div class="card-group">
   <div class="card border-0">
@@ -25,8 +25,8 @@
        
   
         </div>
-        <a-divider></a-divider>
-    
+             <hr>
+
   <div class="container" style="max-width:1080px;">
  
      <div class="card mb-3 mx-auto bg-transparent border-0 " >

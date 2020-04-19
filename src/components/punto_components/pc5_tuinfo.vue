@@ -1,19 +1,21 @@
 <template>
-     <div class="container bg-transparent"  id="tuinfo"  >
+     <div class="container bg-transparent text-center"  id="tuinfo"  >
  <br>
  
-  <p  id="tituloi">MANDA FACTURAS </p>
-  <h5 id="tituloj">A TUS CLIENTES</h5>
+  <p  id="tituloi">TU INFORMACIÓN EN UN </p>
+  <h5 id="tituloj">SOLO LUGAR Y TIEMPO REAL</h5>
 <div class="card  bg-transparent border-0" >
   <ul class="list-group bg-transparent list-group-flush">
     <li class="list-group-item border-0 bg-transparent "> 
-      <img src="img/punto/pantalla_dashboard.png"  alt="...">
+      <img src="img/punto/pv_dashboardweb.png"  alt="...">
 </li>
     <li class="list-group-item border-0 bg-transparent ">
      
     <h5  id="titulok">MODULO DE FACTURACIÓN CFDI 3.3</h5>
-        <h1 id="parrafoc">Ve un resumen de las finanzas en tiempo real y por dia y hora</h1>
-        <h1 id="parrafoc">Ve un resumen de las finanzas en tiempo real y visualiza como se comportan las ventas por dia y hora</h1>
+     <p id="parrafoc"> 
+       Accede a toda tu información en cualquier momento, en cualquier lugar, con este módulo<br>
+de inteligencia de negocios, con reportes que te ayudan a la toma de desiciones acertadas.
+     </p>
 
 
 
